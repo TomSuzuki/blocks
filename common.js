@@ -5,3 +5,12 @@ function Point(){
     this.y = 0;
 }
 
+// ƒ‰ƒ“ƒ_ƒ€‚ð•Ô‚·
+function getRandomInt(max) {
+	return Math.floor(Math.random() * Math.floor(max));
+}
+
+// 2“_ŠÔ‚Ì‹——£‚ð•Ô‚·
+function getkyori(x1,y1,x2,y2){
+	return Math.sqrt(Math.pow(x2-x1,2)+Math.pow(y2-y1,2));
+} 
